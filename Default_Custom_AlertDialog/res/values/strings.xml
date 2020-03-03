@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">mDialogs</string>
+    <string name="default_alert_dialog">Default Alert Dialog</string>
+    <string name="custom_alert_dialog">Custom Alert Dialog</string>
+</resources>
