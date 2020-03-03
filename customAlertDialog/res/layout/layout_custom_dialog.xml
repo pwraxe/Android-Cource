@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#0040ff"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/id_my_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textSize="30sp"
+        android:typeface="serif"
+        android:textColor="#fff"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20sp"
+        />
+
+    <TextView
+        android:id="@+id/id_my_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Message"
+        android:textSize="20sp"
+        android:layout_marginLeft="80sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginStart="80sp"
+        android:typeface="serif"
+        android:textColor="#fff"
+         />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <Button
+            android:id="@+id/id_noButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="No"
+            android:background="@drawable/btn_design"
+            android:layout_margin="20sp"
+            android:padding="20sp"
+            android:textColor="#fff"
+            android:typeface="serif"
+            android:textSize="25sp"
+            />
+
+        <Button
+            android:id="@+id/id_yesButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="YES"
+            android:background="@drawable/btn_design"
+            android:textSize="25sp"
+            android:layout_margin="20sp"
+            android:padding="20sp"
+            android:textColor="#fff"
+            android:typeface="serif"
+
+            />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

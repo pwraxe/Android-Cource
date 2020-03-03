@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#333"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <Button
+        android:id="@+id/id_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get Dialog"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:background="@drawable/btn_design"
+        android:layout_margin="20sp"
+        android:padding="20dp"
+
+        />
+
+</LinearLayout>
