@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/validation_s"
+            android:layout_gravity="center"
+            android:layout_margin="20sp"
+            android:textSize="30sp"
+            android:typeface="serif"
+            android:textColor="#0040ff"
+            />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/id_fullName"
+                    android:hint="@string/full_name"
+                    android:inputType="text"
+                    style="@style/et_style"
+                    android:drawableLeft="@drawable/ic_person"
+                    android:drawableStart="@drawable/ic_person" />
+
+                <EditText
+                    android:id="@+id/id_email"
+                    android:hint="@string/email_id"
+                    android:inputType="textEmailAddress"
+                    style="@style/et_style"
+                    android:drawableLeft="@drawable/ic_email"
+                    android:drawableStart="@drawable/ic_email"
+                    />
+
+
+                <EditText
+                    android:id="@+id/id_mobile"
+                    android:hint="@string/mobile"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    style="@style/et_style"
+                    android:drawableStart="@drawable/ic_mobile"
+                    android:drawableLeft="@drawable/ic_mobile"
+                    />
+
+                <EditText
+                    android:id="@+id/id_password"
+                    android:hint="@string/create_password"
+                    android:inputType="textPassword"
+                    style="@style/et_style"
+                    android:drawableStart="@drawable/ic_password"
+                    android:drawableLeft="@drawable/ic_password"
+                    />
+
+                <EditText
+                    android:id="@+id/id_state"
+                    android:hint="@string/state"
+                    style="@style/et_style"
+                    android:drawableStart="@drawable/ic_state"
+                    android:drawableLeft="@drawable/ic_state" />
+
+                <EditText
+                    android:id="@+id/id_pin"
+                    android:hint="@string/town_pincode"
+                    style="@style/et_style"
+                    android:drawableStart="@drawable/ic_pincode"
+                    android:drawableLeft="@drawable/ic_pincode"
+                    android:inputType="number"
+                    android:maxLength="6"/>
+
+                <Button
+                    android:id="@+id/id_validateButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20sp"
+                    android:padding="20sp"
+                    android:background="@drawable/et_border"
+                    android:text="@string/validate"
+                    android:textStyle="bold"
+                    android:textColor="@color/lite_blue"
+                    android:textSize="25sp"
+                    android:typeface="serif"
+                    android:textAllCaps="false"
+                    />
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</layout>
+
+
