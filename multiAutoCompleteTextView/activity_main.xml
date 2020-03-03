@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#ccc"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/id_multiAutoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"
+        android:padding="20dp"
+        android:hint="type -> select -> type"
+        />
+</LinearLayout>
