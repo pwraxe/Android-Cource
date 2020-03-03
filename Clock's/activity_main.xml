@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Analog Clock : "
+        android:textSize="20sp"
+        android:typeface="serif"
+        android:textColor="#000"
+        android:layout_margin="10dp"
+        />
+
+    <AnalogClock
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#666"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digital Clock : "
+        android:textSize="20sp"
+        android:typeface="serif"
+        android:textColor="#000"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="10dp" />
+    <DigitalClock
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#aaa"
+        android:textSize="30dp"
+        android:gravity="center"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:textColor="#000"
+        android:typeface="serif"
+        android:text="Analog and Digital Clock are \n Deprecated in API Level 23 \n please Don't use these library's" />
+</LinearLayout>
