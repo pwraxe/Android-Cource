@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <fragment
+                android:id="@+id/id_fragment1"
+                android:layout_width="match_parent"
+                android:layout_height="200sp"
+                android:layout_marginBottom="10dp"
+                android:name="com.example.task19.CustomGrid"
+                />
+
+            <fragment
+                android:id="@+id/id_fragment2"
+                android:layout_width="match_parent"
+                android:layout_height="200sp"
+                android:layout_marginBottom="10dp"
+                android:name="com.example.task19.CustomListView"
+                />
+            <fragment
+                android:id="@+id/id_fragment3"
+                android:layout_width="match_parent"
+                android:layout_height="200sp"
+                android:layout_marginBottom="10dp"
+                android:name="com.example.task19.DefaultGrid"
+                />
+            <fragment
+                android:id="@+id/id_fragment4"
+                android:layout_width="match_parent"
+                android:layout_height="200sp"
+                android:layout_marginBottom="10dp"
+                android:name="com.example.task19.DefaultListView"
+                />
+            <fragment
+                android:id="@+id/id_fragment5"
+                android:layout_width="match_parent"
+                android:layout_height="200sp"
+                android:layout_marginBottom="10dp"
+                android:name="com.example.task19.HorizontalButtons"
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</layout>

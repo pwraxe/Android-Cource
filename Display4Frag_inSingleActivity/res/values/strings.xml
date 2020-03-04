@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Task 19</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="languages">
+        <item>Alpha</item>
+        <item>Beta</item>
+        <item>CupCake</item>
+        <item>Donut</item>
+        <item>Eclair</item>
+        <item>Froyo</item>
+        <item>GingerBread</item>
+        <item>HoneyComb</item>
+        <item>Ice-Creme Sandwich</item>
+        <item>Jellybean</item>
+        <item>Kitkat</item>
+        <item>Lollipop</item>
+        <item>MarshMellow</item>
+        <item>Nougat</item>
+        <item>Oreo</item>
+        <item>Pie</item>
+        <item>Q</item>
+    </string-array>
+
+
+</resources>

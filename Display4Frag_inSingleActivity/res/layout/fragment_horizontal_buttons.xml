@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".HorizontalButtons">
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#8BDD0DEB">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="B1"
+                style="@style/button_design"
+                />
+
+            <Button
+                android:text="B2"
+                style="@style/button_design"
+                />
+
+            <Button
+                android:text="B3"
+                style="@style/button_design"
+                />
+
+            <Button
+                android:text="B4"
+                style="@style/button_design"
+                />
+
+            <Button
+                android:text="B5"
+                style="@style/button_design"
+                />
+
+            <Button
+                android:text="B6"
+                style="@style/button_design"
+                />
+
+            <Button
+                android:text="B7"
+                style="@style/button_design"
+                />
+
+            <Button
+                android:text="B8"
+                style="@style/button_design"
+                />
+
+            <Button
+                android:text="B9"
+                style="@style/button_design"
+                />
+
+            <Button
+                android:text="B10"
+                style="@style/button_design"
+                />
+
+            <Button
+                android:text="B11"
+                style="@style/button_design"
+                />
+
+            <Button
+                android:text="B12"
+                style="@style/button_design"
+                />
+
+            <Button
+                android:text="B13"
+                style="@style/button_design"
+                />
+
+            <Button
+                android:text="B14"
+                style="@style/button_design"
+                />
+            <Button
+                android:text="B15"
+                style="@style/button_design"
+                />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+</layout>
