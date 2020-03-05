@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <CheckBox
+        android:id="@+id/id_checkbox1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click me 1"
+        android:textColor="#0040ff"
+        android:textSize="25sp"
+        android:layout_margin="20sp"
+        android:padding="20dp"
+        />
+
+    <CheckBox
+        android:id="@+id/id_checkbox2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click me 2"
+        android:textColor="#0040ff"
+        android:textSize="25sp"
+        android:layout_margin="20sp"
+        android:padding="20dp"
+        />
+
+
+
+
+
+
+    <Button
+        android:id="@+id/id_btn_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Both"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:layout_margin="20sp"
+        android:padding="20sp"
+        android:background="#fff"
+        android:textColor="#0040ff"
+        android:typeface="serif"
+        android:enabled="false"
+        />
+
+</LinearLayout>
