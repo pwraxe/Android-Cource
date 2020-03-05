@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/id_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0040ff"
+        app:menu="@menu/menu_mylist"
+
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#fff"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="10dp"
+        android:layout_margin="20sp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/id_imageUrl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/image_url"
+                android:padding="20sp"
+                android:layout_margin="20sp"
+                android:inputType="textUri"
+                android:importantForAutofill="auto"
+                android:autofillHints="@string/app_name"
+                />
+
+            <Button
+                android:id="@+id/id_btn_load"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/load_image"
+                android:layout_margin="20sp"
+                android:padding="20sp"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:typeface="serif"
+                android:background="#0040ff"
+                android:textColor="#fff"
+                />
+
+            <ImageView
+                android:id="@+id/loaded_image"
+                android:layout_width="match_parent"
+                android:layout_height="300sp"
+                android:layout_margin="20sp"
+                android:src="@drawable/ic_unload_img"
+                android:contentDescription="@string/img_desc" />
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

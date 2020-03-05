@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group1"
+        android:menuCategory="alternative"
+        android:enabled="true"
+        android:visible="true">
+
+        <item
+            android:id="@+id/item1"
+            android:title="Apple"
+            android:icon="@drawable/ic_fingerprint"
+            />
+
+        <item
+            android:id="@+id/item2"
+            android:title="Samsung"
+            />
+
+        <item
+            android:id="@+id/item3"
+            android:title="Nokia"
+            />
+
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:visible="true"
+        android:enabled="true"
+        android:menuCategory="container"
+        >
+
+
+        <item
+            android:id="@+id/item4"
+            android:title="Google Pixel"
+            />
+        <item
+            android:id="@+id/item5"
+            android:title="Oppo"
+            />
+
+        <item
+            android:id="@+id/item6"
+            android:title="Vivo"
+            />
+
+    </group>
+</menu>
