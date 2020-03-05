@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <EditText
+            android:id="@+id/id_emailID"
+            android:hint="Enter Email ID"
+            style="@style/et_theme"/>
+
+        <EditText
+            android:id="@+id/id_Email_Sub"
+            android:hint="Email sub"
+            style="@style/et_theme"
+            />
+
+        <EditText
+            android:id="@+id/id_emailMessage"
+            android:hint="Email Message"
+            style="@style/et_theme"
+            />
+
+
+        <Button
+            android:id="@+id/id_sendEmailButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Compose Email"
+            android:layout_margin="20sp"
+            android:padding="20sp"
+            android:background="#fff"
+            android:textSize="20sp"
+            android:typeface="serif"
+            android:textAllCaps="false"
+            android:textColor="#0440ff"
+            />
+    </LinearLayout>
+
+
+</layout>
