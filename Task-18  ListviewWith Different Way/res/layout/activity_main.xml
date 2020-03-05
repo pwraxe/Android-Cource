@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/id_method1"
+            android:text="ListView by Method 1"
+            style="@style/btn_design"
+            />
+
+        <Button
+            android:id="@+id/id_method2"
+            android:text="ListView by Method 2"
+            style="@style/btn_design"
+            />
+
+        <Button
+            android:id="@+id/id_method3"
+            android:text="ListView by Method 3"
+            style="@style/btn_design"
+            />
+
+        <Button
+            android:id="@+id/id_method4"
+            android:text="ListView by Method 4"
+            style="@style/btn_design"
+            />
+
+    </LinearLayout>
+
+</layout>

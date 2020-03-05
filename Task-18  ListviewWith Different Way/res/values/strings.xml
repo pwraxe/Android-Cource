@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Task 18</string>
+
+    <string-array name="languages">
+        <item>C</item>
+        <item>C++</item>
+        <item>Java</item>
+        <item>Kotlin</item>
+        <item>XML</item>
+        <item>HTML</item>
+        <item>SMTP</item>
+        <item>Android</item>
+        <item>PHP</item>
+        <item>Python</item>
+        <item>Xamarin</item>
+        <item>GitLab</item>
+        <item>Flutter</item>
+        <item>iOS</item>
+        <item>Swift</item>
+        <item>Go</item>
+        <item>Ruby</item>
+        <item>R</item>
+        <item>Angular</item>
+        <item>JavaScript</item>
+
+
+    </string-array>
+
+</resources>
