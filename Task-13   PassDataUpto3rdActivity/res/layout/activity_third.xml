@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="Activity 3"
+            style="@style/txt_style"
+            />
+
+        <TextView
+            android:id="@+id/id_setNameIn3"
+            android:text="Name : "
+            style="@style/txt_style"
+            android:textAlignment="textStart"
+            android:gravity="start"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:id="@+id/id_setMobileNoIn3"
+            android:text="Mobile No : "
+            style="@style/txt_style"
+            android:textAlignment="textStart"
+            android:gravity="start"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:id="@+id/id_setAgeIn3"
+            android:text="Age : "
+            style="@style/txt_style"
+            android:textAlignment="textStart"
+            android:gravity="start"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:id="@+id/id_switchResultIn3"
+            android:text="isSwitchCheck : "
+            style="@style/txt_style"
+            android:textAlignment="textStart"
+            android:gravity="start"
+            android:textSize="20sp"
+            />
+
+
+
+    </LinearLayout>
+
+
+</layout>

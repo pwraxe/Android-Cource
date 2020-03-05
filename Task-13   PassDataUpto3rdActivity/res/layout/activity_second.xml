@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="Activity 2"
+            style="@style/txt_style"
+            />
+
+        <TextView
+            android:id="@+id/id_setName"
+            android:text="Name : "
+            style="@style/txt_style"
+            android:textAlignment="textStart"
+            android:gravity="start"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            />
+        <TextView
+            android:id="@+id/id_setMobileNo"
+            android:text="Mobile No : "
+            style="@style/txt_style"
+            android:textAlignment="textStart"
+            android:gravity="start"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            />
+        <TextView
+            android:id="@+id/id_setAge"
+            android:text="Age : "
+            style="@style/txt_style"
+            android:textAlignment="textStart"
+            android:gravity="start"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            />
+        <TextView
+            android:id="@+id/id_switchResult"
+            android:text="isSwitchCheck : "
+            style="@style/txt_style"
+            android:textAlignment="textStart"
+            android:gravity="start"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            />
+
+        <Button
+            android:id="@+id/id_moveToThirdButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:padding="20sp"
+            android:text="Send this Data To Third Activity"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:textColorHint="@color/lite_blue"
+            android:background="#fff"
+            android:textColor="@color/lite_blue"
+            />
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</layout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:text="Activity 1"
+            style="@style/txt_style"
+            />
+
+        <EditText
+            android:id="@+id/id_et_name"
+            android:hint="Enter Name"
+            style="@style/et_style"
+            />
+
+        <EditText
+            android:id="@+id/id_et_mobile"
+            android:hint="Mobile No"
+            style="@style/et_style"
+            android:inputType="number"
+            android:maxLength="10"
+            />
+
+        <EditText
+            android:id="@+id/id_et_age"
+            android:hint="Enter Age"
+            style="@style/et_style"
+            android:inputType="number"
+            android:maxLength="2"
+            />
+        <Switch
+            android:id="@+id/id_btn_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:thumbTint="@color/lite_blue"
+            />
+
+        <Button
+            android:id="@+id/id_moveButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Move data To 2nd Activity"
+            style="@style/txt_style"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:background="#fff"
+            />
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</layout>
