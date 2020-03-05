@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/id_loadImgButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="From Gallery"
+            android:textColor="#0040ff"
+            android:textSize="20sp"
+            android:layout_margin="20sp"
+            android:padding="20sp"
+            android:background="#fff"
+            android:textAllCaps="false"
+            android:typeface="serif"
+            />
+
+        <Button
+            android:id="@+id/id_takePic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="From Camera"
+            android:textColor="#0040ff"
+            android:textSize="20sp"
+            android:layout_margin="20sp"
+            android:padding="20sp"
+            android:background="#fff"
+            android:textAllCaps="false"
+            android:typeface="serif"
+            />
+
+        <ImageView
+            android:id="@+id/id_ImgLoadArea"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            />
+
+
+
+    </LinearLayout>
+
+
+</layout>
